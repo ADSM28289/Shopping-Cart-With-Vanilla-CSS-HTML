@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <!-- --------css links------ -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ----------heder part--------- -->
+    <header class="title">
+        <h1 class="site-title">My Flexible Shopping Cart</h1>
+    </header>
+    <!-- -----------main part--------------- -->
+    <main class="parent-container">
+
+        <!-- ----------phone part---------- -->
+        <section class="container">
+            <img src="images/product-1.png" alt="">
+            <h1 class="product-details">iPhone 11 128GB Black</h1>
+            <div class="input-part">
+                <button class="btn"> -</button>
+                <input class="num-input" type="number" value="0">
+                <button class="btn"> +</button>
+            </div>
+            <h1>$1219</h1>
+            <button class="btn-cross"> <img src="images/remove.png" alt=""></button>
+        </section>
+        <!-- ----------case part---------- -->
+        <section class="container">
+            <img src="images/product-2.png" alt="">
+            <h1 class="product-details">iPhone 11 Silicone Case - Black</h1>
+            <div class="input-part">
+                <button class="btn"> -</button>
+                <input class="num-input" type="number" value="0">
+                <button class="btn"> +</button>
+            </div>
+            <h1> $59</h1>
+            <button class="btn-cross"> <img src="images/remove.png" alt=""></button>
+        </section>
+        <!-- ------------calculate part------------- -->
+        <section id="total-container" class="container">
+            <div id="total-details">
+                <h3>Subtotal:</h3>
+                <h3>Tax:</h3>
+                <h3>Total:</h3>
+            </div>
+            <div id="total-ammount">
+                <h3>$1,278</h3>
+                <h3>$0</h3>
+                <h3>$1,278</h3>
+            </div>
+        </section>
+        <a class="check-out-btn" href="https://www.google.com/" target="blank">Check Out</a>
+    </main>
+
+
+</body>
+
+</html>
